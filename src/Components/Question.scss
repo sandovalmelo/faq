@@ -1,9 +1,23 @@
 .question {
+	&-box {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
 	&-title {
-		// color: teal;
+		font-size: 1.25rem;
+		padding: 2rem 0;
 	}
 
 	&-answer {
-		// color: yellow;
+		line-height: 1.5;
+		font-size: 1rem;
+		display: none;
+	}
+
+	.open {
+		display: block;
 	}
 }
