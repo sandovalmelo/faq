@@ -1,0 +1,49 @@
+$pink: hsl(275, 100%, 97%);
+$dark-purple: hsl(292, 42%, 14%);
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "WorkSans-Bold";
+	src: url("./../public/fonts/WorkSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "WorkSans-SemiBold";
+	src: url("./../public/fonts/WorkSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "WorkSans-Regular";
+	src: url("./../public/fonts/WorkSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url("./../public/images/background-pattern-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -100px;
+	background-color: $pink;
+	font-family: WorkSans-Regular;
+	color: $dark-purple;
+}
+
+h1 {
+	font-family: WorkSans-Bold;
+}
+
+h2 {
+	font-family: WorkSans-SemiBold;
+}

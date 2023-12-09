@@ -1,0 +1,11 @@
+$white: hsl(0, 0%, 100%);
+
+.question-container {
+	background-color: $white;
+	max-width: 45rem;
+	padding: 3rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
