@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Question from "./Question";
 import "./QuestionContainer.scss";
 
@@ -31,9 +31,20 @@ const questions = [
 
 function QuestionsContainer() {
 	const [open, setOpen] = useState(null);
+	const ref = useRef(null);
+
+	useEffect(function () {
+		function handleClick(event) {
+			if (ref.current && !ref.current.contains(event.target)) setOpen(null);
+		}
+
+		document.addEventListener("click", handleClick);
+
+		return () => document.removeEventListener("click", handleClick);
+	}, []);
 
 	return (
-		<div className="question-container">
+		<div className="question-container" ref={ref}>
 			<div>
 				<span>
 					<img src="/images/icon-star.svg" alt="Star icon" />

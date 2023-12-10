@@ -1,7 +1,12 @@
+$pink: hsl(275, 100%, 97%);
+
 .question {
+	border-bottom: solid 1px $pink;
+
 	&-box {
 		display: flex;
 		align-items: center;
+		gap: 1rem;
 		justify-content: space-between;
 		cursor: pointer;
 	}
@@ -9,12 +14,17 @@
 	&-title {
 		font-size: 1.25rem;
 		padding: 2rem 0;
+		&:hover {
+			color: #ad28eb;
+		}
 	}
 
 	&-answer {
 		line-height: 1.5;
 		font-size: 1rem;
 		display: none;
+		padding-right: 2.5rem;
+		padding-bottom: 1rem;
 	}
 
 	.open {
