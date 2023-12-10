@@ -52,3 +52,9 @@ h2 {
 p {
 	color: $light-purple;
 }
+
+@media (max-width: 800px) {
+	body {
+		background-image: url("./../public/images/background-pattern-mobile.svg");
+	}
+}
