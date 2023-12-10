@@ -12,7 +12,7 @@ function Question({ question, answer, id, open, setOpen }) {
 				<h2 className="question-title">{question}</h2>
 				<span>
 					<img
-						src={id === open ? "/images/icon-minus.svg" : "/images/icon-plus.svg"}
+						src={id === open ? "./../images/icon-minus.svg" : "./../images/icon-plus.svg"}
 						alt="Toggle Icon"
 					/>
 				</span>

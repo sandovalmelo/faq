@@ -47,7 +47,7 @@ function QuestionsContainer() {
 		<div className="question-container" ref={ref}>
 			<div>
 				<span>
-					<img src="/images/icon-star.svg" alt="Star icon" />
+					<img src="./../images/icon-star.svg" alt="Star icon" />
 				</span>
 				<h1>FAQs</h1>
 			</div>
