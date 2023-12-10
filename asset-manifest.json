@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/faq/static/css/main.f2d26510.css",
+    "main.js": "/faq/static/js/main.66a80f4d.js",
+    "static/media/WorkSans-Bold.ttf": "/faq/static/media/WorkSans-Bold.1cdef49100a51e35264a.ttf",
+    "static/media/WorkSans-SemiBold.ttf": "/faq/static/media/WorkSans-SemiBold.6059d691b0223afc6cc5.ttf",
+    "static/media/WorkSans-Regular.ttf": "/faq/static/media/WorkSans-Regular.7c5aca8a8c320a8df026.ttf",
+    "static/media/background-pattern-mobile.svg": "/faq/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
+    "static/media/background-pattern-desktop.svg": "/faq/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
+    "index.html": "/faq/index.html",
+    "main.f2d26510.css.map": "/faq/static/css/main.f2d26510.css.map",
+    "main.66a80f4d.js.map": "/faq/static/js/main.66a80f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d26510.css",
+    "static/js/main.66a80f4d.js"
+  ]
+}
