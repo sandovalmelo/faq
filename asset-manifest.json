@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/faq/static/css/main.f2d26510.css",
-    "main.js": "/faq/static/js/main.0a02e31f.js",
+    "main.css": "/faq/static/css/main.b4bdd0a9.css",
+    "main.js": "/faq/static/js/main.05e66b15.js",
     "static/media/WorkSans-Bold.ttf": "/faq/static/media/WorkSans-Bold.1cdef49100a51e35264a.ttf",
     "static/media/WorkSans-SemiBold.ttf": "/faq/static/media/WorkSans-SemiBold.6059d691b0223afc6cc5.ttf",
     "static/media/WorkSans-Regular.ttf": "/faq/static/media/WorkSans-Regular.7c5aca8a8c320a8df026.ttf",
@@ -11,11 +11,11 @@
     "static/media/icon-star.svg": "/faq/static/media/icon-star.189fd38b8aefdc8fbe0d4008b1ff497e.svg",
     "static/media/icon-plus.svg": "/faq/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
     "static/media/icon-minus.svg": "/faq/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
-    "main.f2d26510.css.map": "/faq/static/css/main.f2d26510.css.map",
-    "main.0a02e31f.js.map": "/faq/static/js/main.0a02e31f.js.map"
+    "main.b4bdd0a9.css.map": "/faq/static/css/main.b4bdd0a9.css.map",
+    "main.05e66b15.js.map": "/faq/static/js/main.05e66b15.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2d26510.css",
-    "static/js/main.0a02e31f.js"
+    "static/css/main.b4bdd0a9.css",
+    "static/js/main.05e66b15.js"
   ]
 }
