@@ -35,10 +35,14 @@ body {
 	background-image: url("./../public/images/background-pattern-desktop.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 -100px;
+	background-position: 0 -600px;
 	background-color: $pink;
 	font-family: WorkSans-Regular;
 	color: $dark-purple;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100dvh;
 }
 
 h1 {
@@ -56,5 +60,6 @@ p {
 @media (max-width: 800px) {
 	body {
 		background-image: url("./../public/images/background-pattern-mobile.svg");
+		background-position: 0 -450px;
 	}
 }
